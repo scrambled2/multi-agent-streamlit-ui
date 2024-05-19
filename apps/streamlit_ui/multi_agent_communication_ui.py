@@ -209,7 +209,7 @@ def main(
             )
 
             # Start the role-playing to complete the subtask
-            chat_turn_limit, n = 2, 0
+            chat_turn_limit, n = 50, 0
             input_msg = role_play_session.init_chat()
             while n < chat_turn_limit:
                 n += 1
