@@ -93,7 +93,6 @@ Moreover, in the realm of prompt engineering within the Multi-Agent System, the 
     python -m venv myenvname
     ./myenvname/Scripts/activate # Windows
     source myenvname/bin/activate # MacOS
-
     ```
 3. Install the dependencies: 
     ``` sh
