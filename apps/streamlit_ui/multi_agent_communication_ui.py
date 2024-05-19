@@ -394,7 +394,7 @@ def send_subtasks_to_ui(subtasks=[]):
 
 
 def send_summary_to_ui(output_msg=""):
-    st.text(output_msg.replace("\n", "\n\n") + "\n\n")
+    st.write(output_msg.replace("\n", "\n\n") + "\n\n")
 
     # Save the output message
     with open("downloads/CAMEL_multi_agent_summary.md", "a") as file:
